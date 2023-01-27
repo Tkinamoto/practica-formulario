@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 //import Formulario from './Formulario';
-import Ejercisio1 from './FormularioEjercisio';
+import Formulario2 from '.Formulario2/Formulario2';
 
-import './index.css';
+/* import './index.css'; */
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Ejercisio1 />
+    <Formulario2 />
   </React.StrictMode>
 );
